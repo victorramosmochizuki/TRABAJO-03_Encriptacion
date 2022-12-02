@@ -1,0 +1,14 @@
+server:
+  port: 9292
+
+spring:
+  application:
+    name: ms-collaborator_type
+  r2dbc:
+    url: r2dbc:postgres://oqjkiybw:A2dO9VKKSSaZQeKBo0o1-3lwNU3Cdb0H@babar.db.elephantsql.com:5432/oqjkiybw
+    username: oqjkiybw
+    password: MzF9is_-A2dO9VKKSSaZQeKBo0o1-3lwNU3Cdb0H-b2wmlAArhNH5CAs6ipzL
+    pool:
+      enabled: true
+      initial-size: 1
+      max-size: 1
